@@ -1,0 +1,38 @@
+.popup {
+    height: 90vh;
+    width: 100vh;
+    background-color: aqua;
+    overflow: hidden;
+    position: absolute;
+    top:11vh;
+    left:50vh;
+    display: flex;
+    justify-content: center;
+    transition: 850ms;
+}
+
+.popup-inner {
+    margin: 10px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.form-header {
+    font-size: 32px;
+}
+
+.form-control label {
+    display: block;
+    font-size: 16px;
+}
+
+.form-control input {
+    border:0;
+    
+}
+
+
+

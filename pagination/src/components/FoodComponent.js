@@ -1,7 +1,14 @@
-const FoodComponent=()=> {
+const FoodComponent=({name,image_url})=> {
     return (
-        <div>
-            <h1>Food Component</h1>
+        <div className="card">
+            
+            <div className="card-body">
+                <div className="card-image">
+                    <img src={image_url} alt={name}></img>
+                </div>
+            </div>
+            <div className="card-title">{name}</div>
+            
         </div>
     )
 }
